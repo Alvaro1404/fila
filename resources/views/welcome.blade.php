@@ -6,10 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>FILA</title>
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <body>
-            <div id="app">
-            <example-component> </example-component>
-            </div>
-        <script src="{{asset('js/app.js')}}"></script>
+    <body>  
+    
+    <template>
+        
+        <div id="app">
+        <home/>
+        </div>
+    
+    </template>
+           
+            
+          
+        <script src="{{asset('js/app.js')}}">
+            import Home from './components/Home.vue'
+            export default {
+                name: 'App',
+                component:{
+                    Home
+                }
+            }
+        </script>
     </body>
 </html>
