@@ -10745,11 +10745,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/tela-amarela-gradiente.webp */ "./resources/js/components/images/tela-amarela-gradiente.webp");
+/* harmony import */ var _images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
+
+
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()((_images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.divider[data-v-6bdc8b8e]:after,\r\n.divider[data-v-6bdc8b8e]:before {\r\ncontent: \"\";\r\nflex: 1;\r\nheight: 1px;\r\nbackground: #eee;\n}\n.h-custom[data-v-6bdc8b8e] {\r\nheight: calc(100% - 73px);\n}\n@media (max-width: 150px) {\n.h-custom[data-v-6bdc8b8e] {\r\nheight: 50%;\n}\n}\n.footer[data-v-6bdc8b8e] {\r\n  position:static;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  color: white;\r\n  text-align: center;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nsection[data-v-6bdc8b8e]{\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-repeat: no-repeat;\r\n  background-attachment: fixed;\r\n  background-size: cover\n}\n.botao[data-v-6bdc8b8e]{\r\n  padding-left: 2.5rem; padding-right: 2.5rem; background-color: #3A9DD5; border: #eee;\n}\n.botao[data-v-6bdc8b8e]:hover {\r\n  background-color: #0e5379;\r\n  animation-delay: 1ms;\n}\n.divider[data-v-6bdc8b8e]:after,\r\n.divider[data-v-6bdc8b8e]:before {\r\ncontent: \"\";\r\nflex: 1;\r\nheight: 1px;\r\nbackground: #eee;\n}\n.h-custom[data-v-6bdc8b8e] {\r\nheight: calc(100% - 73px);\n}\n@media (max-width: 150px) {\n.h-custom[data-v-6bdc8b8e] {\r\nheight: 50%;\n}\n}\n.footer[data-v-6bdc8b8e] {\r\n  /* position:static;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  color: white;\r\n  text-align: center; */\r\n  position: absolute;\r\n  bottom: 0;\r\n  width: 100%;\r\n  height: 2.5rem;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10832,6 +10839,60 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== "string") {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
+/***/ "./resources/js/components/images/celular1.webp":
+/*!******************************************************!*\
+  !*** ./resources/js/components/images/celular1.webp ***!
+  \******************************************************/
+/***/ ((module) => {
+
+module.exports = "/images/celular1.webp?fc2676580cd1c3dd71c14bb0e1da8210";
+
+/***/ }),
+
 /***/ "./resources/js/components/images/cores.svg":
 /*!**************************************************!*\
   !*** ./resources/js/components/images/cores.svg ***!
@@ -10839,6 +10900,16 @@ module.exports = function (cssWithMappingToString) {
 /***/ ((module) => {
 
 module.exports = "/images/cores.svg?aed67915b500e0b5a62bd4137e9e705d";
+
+/***/ }),
+
+/***/ "./resources/js/components/images/tela-amarela-gradiente.webp":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/images/tela-amarela-gradiente.webp ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+module.exports = "/images/tela-amarela-gradiente.webp?d0e23f0c98182783f5db3b5f5b67ac67";
 
 /***/ }),
 
@@ -28990,7 +29061,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "vh-100" }, [
-      _c("div", { staticClass: "container-fluid h-custom" }, [
+      _c("div", { staticClass: "container h-custom" }, [
         _c(
           "div",
           {
@@ -28998,11 +29069,12 @@ var staticRenderFns = [
               "row d-flex justify-content-center align-items-center h-100",
           },
           [
-            _c("div", { staticClass: "col-md-9 col-lg-6 col-xl-5" }, [
+            _c("div", { staticClass: "col-md-12 col-lg-12 col-xl-6" }, [
               _c("img", {
                 staticClass: "img-fluid",
+                staticStyle: { height: "60%", width: "60%" },
                 attrs: {
-                  src: "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp",
+                  src: __webpack_require__(/*! ./images/celular1.webp */ "./resources/js/components/images/celular1.webp"),
                   alt: "Sample image",
                 },
               }),
@@ -29012,14 +29084,14 @@ var staticRenderFns = [
               "div",
               { staticClass: "col-md-8 col-lg-6 col-xl-4 offset-xl-1" },
               [
+                _c("h1", { staticClass: "fw-normal mb-0 me-3" }, [
+                  _vm._v("Conectar-se"),
+                ]),
+                _vm._v(" "),
                 _c("form", [
-                  _c("label", { staticClass: "lead fw-normal mb-0 me-3" }, [
-                    _vm._v("Conectar-se"),
-                  ]),
-                  _vm._v(" "),
                   _c("div", { staticClass: "form-outline mb-4" }, [
                     _c("input", {
-                      staticClass: "form-control form-control-lg",
+                      staticClass: "form-control form-control-md",
                       attrs: {
                         type: "email",
                         id: "form3Example3",
@@ -29039,7 +29111,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("div", { staticClass: "form-outline mb-3" }, [
                     _c("input", {
-                      staticClass: "form-control form-control-lg",
+                      staticClass: "form-control form-control-md",
                       attrs: {
                         type: "password",
                         id: "form3Example4",
@@ -29061,7 +29133,7 @@ var staticRenderFns = [
                     "div",
                     {
                       staticClass:
-                        "d-flex justify-content-between align-items-center",
+                        "d-lg-inline-flex justify-content-between align-items-center",
                     },
                     [
                       _c("div", { staticClass: "form-check mb-0" }, [
@@ -29077,7 +29149,8 @@ var staticRenderFns = [
                         _c(
                           "label",
                           {
-                            staticClass: "form-check-label",
+                            staticClass: "form-check-label small text-body",
+                            staticStyle: { "font-size": "0.8rem" },
                             attrs: { for: "form2Example3" },
                           },
                           [
@@ -29092,6 +29165,7 @@ var staticRenderFns = [
                         "a",
                         {
                           staticClass: "small text-body",
+                          staticStyle: { "font-size": "0.8rem" },
                           attrs: { href: "#!" },
                         },
                         [_vm._v("Recuperação de senha")]
@@ -29106,18 +29180,13 @@ var staticRenderFns = [
                       _c(
                         "button",
                         {
-                          staticClass: "btn btn-info btn-lg",
-                          staticStyle: {
-                            "padding-left": "2.5rem",
-                            "padding-right": "2.5rem",
-                            color: "aliceblue",
-                          },
-                          attrs: { type: "button", "on-": "" },
+                          staticClass: "btn btn-primary botao btn-md",
+                          attrs: { type: "button" },
                         },
                         [_vm._v("Login")]
                       ),
                       _vm._v(" "),
-                      _c("p", { staticClass: "small fw-bold mt-2 pt-1 mb-0" }, [
+                      _c("p", { staticClass: "small" }, [
                         _vm._v("Não tem uma conta? "),
                         _c(
                           "a",
@@ -29136,7 +29205,11 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "footer" }, [
         _c("img", {
-          staticStyle: { width: "100%", height: "100%" },
+          staticStyle: {
+            width: "100%",
+            "max-height": "100px",
+            "object-fit": "cover",
+          },
           attrs: { src: __webpack_require__(/*! ./images/cores.svg */ "./resources/js/components/images/cores.svg"), alt: "rodapé" },
         }),
       ]),

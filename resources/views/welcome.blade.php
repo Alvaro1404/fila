@@ -4,12 +4,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>FILA</title>
+        <title>Agenda Fácil</title>
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <body>  
-   
-        <h1>Agenda Fácil</h1>
         
+      
         <div id="app">
            <Login></Login>
         </div>
