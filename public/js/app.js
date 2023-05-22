@@ -10747,14 +10747,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/tela-amarela-gradiente.webp */ "./resources/js/components/images/tela-amarela-gradiente.webp");
-/* harmony import */ var _images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_tela_de_fundo_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/tela-de-fundo.webp */ "./resources/js/components/images/tela-de-fundo.webp");
+/* harmony import */ var _images_tela_de_fundo_webp__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_tela_de_fundo_webp__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()((_images_tela_amarela_gradiente_webp__WEBPACK_IMPORTED_MODULE_2___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()((_images_tela_de_fundo_webp__WEBPACK_IMPORTED_MODULE_2___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\nsection[data-v-6bdc8b8e]{\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-repeat: no-repeat;\r\n  background-attachment: fixed;\r\n  background-size: cover\n}\n.botao[data-v-6bdc8b8e]{\r\n  padding-left: 2.5rem; padding-right: 2.5rem; background-color: #3A9DD5; border: #eee;\n}\n.botao[data-v-6bdc8b8e]:hover {\r\n  background-color: #0e5379;\r\n  animation-delay: 1ms;\n}\n.divider[data-v-6bdc8b8e]:after,\r\n.divider[data-v-6bdc8b8e]:before {\r\ncontent: \"\";\r\nflex: 1;\r\nheight: 1px;\r\nbackground: #eee;\n}\n.h-custom[data-v-6bdc8b8e] {\r\nheight: calc(100% - 73px);\n}\n@media (max-width: 150px) {\n.h-custom[data-v-6bdc8b8e] {\r\nheight: 50%;\n}\n}\n.footer[data-v-6bdc8b8e] {\r\n  /* position:static;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  color: white;\r\n  text-align: center; */\r\n  position: absolute;\r\n  bottom: 0;\r\n  width: 100%;\r\n  height: 2.5rem;\n}\r\n", ""]);
 // Exports
@@ -10893,23 +10893,23 @@ module.exports = "/images/celular1.webp?fc2676580cd1c3dd71c14bb0e1da8210";
 
 /***/ }),
 
-/***/ "./resources/js/components/images/cores.svg":
-/*!**************************************************!*\
-  !*** ./resources/js/components/images/cores.svg ***!
-  \**************************************************/
+/***/ "./resources/js/components/images/cores.webp":
+/*!***************************************************!*\
+  !*** ./resources/js/components/images/cores.webp ***!
+  \***************************************************/
 /***/ ((module) => {
 
-module.exports = "/images/cores.svg?aed67915b500e0b5a62bd4137e9e705d";
+module.exports = "/images/cores.webp?d3bc42a949bde818ba7b3884272827e3";
 
 /***/ }),
 
-/***/ "./resources/js/components/images/tela-amarela-gradiente.webp":
-/*!********************************************************************!*\
-  !*** ./resources/js/components/images/tela-amarela-gradiente.webp ***!
-  \********************************************************************/
+/***/ "./resources/js/components/images/tela-de-fundo.webp":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/images/tela-de-fundo.webp ***!
+  \***********************************************************/
 /***/ ((module) => {
 
-module.exports = "/images/tela-amarela-gradiente.webp?d0e23f0c98182783f5db3b5f5b67ac67";
+module.exports = "/images/tela-de-fundo.webp?9a7bcb34fc6d61d72dca743fdc86d320";
 
 /***/ }),
 
@@ -29066,13 +29066,12 @@ var staticRenderFns = [
           "div",
           {
             staticClass:
-              "row d-flex justify-content-center align-items-center h-100",
+              "row d-flex justify-content-lg-center align-items-center justify-content-sm-center p-2",
           },
           [
-            _c("div", { staticClass: "col-md-12 col-lg-12 col-xl-6" }, [
+            _c("div", { staticClass: "col-md-6 col-sm-12 text-center mt-3" }, [
               _c("img", {
-                staticClass: "img-fluid",
-                staticStyle: { height: "60%", width: "60%" },
+                staticClass: "center-block mh-50 mw-50 h-50 w-50",
                 attrs: {
                   src: __webpack_require__(/*! ./images/celular1.webp */ "./resources/js/components/images/celular1.webp"),
                   alt: "Sample image",
@@ -29082,13 +29081,17 @@ var staticRenderFns = [
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-md-8 col-lg-6 col-xl-4 offset-xl-1" },
+              { staticClass: "col-md-6 col-lg-6 col-xl-4 offset-xl-1 pt-3" },
               [
-                _c("h1", { staticClass: "fw-normal mb-0 me-3" }, [
-                  _vm._v("Conectar-se"),
-                ]),
-                _vm._v(" "),
-                _c("form", [
+                _c("form", { staticClass: "container" }, [
+                  _c("div", { staticClass: "text-center text-light" }, [
+                    _c(
+                      "h1",
+                      { staticClass: "fw-bold mb-0 me-3 fs-4 fs-sm-1" },
+                      [_vm._v("Conectar-se")]
+                    ),
+                  ]),
+                  _vm._v(" "),
                   _c("div", { staticClass: "form-outline mb-4" }, [
                     _c("input", {
                       staticClass: "form-control form-control-md",
@@ -29102,7 +29105,7 @@ var staticRenderFns = [
                     _c(
                       "label",
                       {
-                        staticClass: "form-label",
+                        staticClass: "form-label text-light pt-1",
                         attrs: { for: "form3Example3" },
                       },
                       [_vm._v("Insira seu CPF")]
@@ -29122,7 +29125,7 @@ var staticRenderFns = [
                     _c(
                       "label",
                       {
-                        staticClass: "form-label",
+                        staticClass: "form-label text-light pt-1",
                         attrs: { for: "form3Example4" },
                       },
                       [_vm._v("Senha")]
@@ -29133,49 +29136,8 @@ var staticRenderFns = [
                     "div",
                     {
                       staticClass:
-                        "d-lg-inline-flex justify-content-between align-items-center",
+                        "text-sm-center text-lg-start mt-4 pt-2 text-light",
                     },
-                    [
-                      _c("div", { staticClass: "form-check mb-0" }, [
-                        _c("input", {
-                          staticClass: "form-check-input me-2",
-                          attrs: {
-                            type: "checkbox",
-                            value: "",
-                            id: "form2Example3",
-                          },
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "form-check-label small text-body",
-                            staticStyle: { "font-size": "0.8rem" },
-                            attrs: { for: "form2Example3" },
-                          },
-                          [
-                            _vm._v(
-                              "\n                Lembrar-se de mim\n              "
-                            ),
-                          ]
-                        ),
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "small text-body",
-                          staticStyle: { "font-size": "0.8rem" },
-                          attrs: { href: "#!" },
-                        },
-                        [_vm._v("Recuperação de senha")]
-                      ),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "text-center text-lg-start mt-4 pt-2" },
                     [
                       _c(
                         "button",
@@ -29186,11 +29148,11 @@ var staticRenderFns = [
                         [_vm._v("Login")]
                       ),
                       _vm._v(" "),
-                      _c("p", { staticClass: "small" }, [
+                      _c("p", [
                         _vm._v("Não tem uma conta? "),
                         _c(
                           "a",
-                          { staticClass: "link-danger", attrs: { href: "#!" } },
+                          { staticClass: "link-info", attrs: { href: "#!" } },
                           [_vm._v("Registrar")]
                         ),
                       ]),
@@ -29203,14 +29165,14 @@ var staticRenderFns = [
         ),
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "footer" }, [
+      _c("div", { staticClass: "footer w-100 mh-100" }, [
         _c("img", {
           staticStyle: {
             width: "100%",
             "max-height": "100px",
             "object-fit": "cover",
           },
-          attrs: { src: __webpack_require__(/*! ./images/cores.svg */ "./resources/js/components/images/cores.svg"), alt: "rodapé" },
+          attrs: { src: __webpack_require__(/*! ./images/cores.webp */ "./resources/js/components/images/cores.webp"), alt: "rodapé" },
         }),
       ]),
     ])
