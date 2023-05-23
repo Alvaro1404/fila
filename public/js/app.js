@@ -5319,8 +5319,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -5393,9 +5391,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ViewTest.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ViewTest.vue?vue&type=script&lang=ts&":
 /*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ViewTest.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ViewTest.vue?vue&type=script&lang=ts& ***!
   \***************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -5404,16 +5402,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "ViewTest"
 });
@@ -28772,7 +28760,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _ViewTest_vue_vue_type_template_id_77b02a7c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ViewTest.vue?vue&type=template&id=77b02a7c&scoped=true& */ "./resources/js/components/ViewTest.vue?vue&type=template&id=77b02a7c&scoped=true&");
-/* harmony import */ var _ViewTest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ViewTest.vue?vue&type=script&lang=js& */ "./resources/js/components/ViewTest.vue?vue&type=script&lang=js&");
+/* harmony import */ var _ViewTest_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ViewTest.vue?vue&type=script&lang=ts& */ "./resources/js/components/ViewTest.vue?vue&type=script&lang=ts&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -28782,7 +28770,7 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ViewTest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ViewTest_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_1__["default"],
   _ViewTest_vue_vue_type_template_id_77b02a7c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
   _ViewTest_vue_vue_type_template_id_77b02a7c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
@@ -28847,9 +28835,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/ViewTest.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/components/ViewTest.vue?vue&type=script&lang=ts&":
 /*!***********************************************************************!*\
-  !*** ./resources/js/components/ViewTest.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/components/ViewTest.vue?vue&type=script&lang=ts& ***!
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -28858,8 +28846,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ViewTest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ViewTest.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ViewTest.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ViewTest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ViewTest_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ViewTest.vue?vue&type=script&lang=ts& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ViewTest.vue?vue&type=script&lang=ts&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ViewTest_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -28960,15 +28948,7 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("h1", [_vm._v("Dashboard")]),
-      _vm._v("\n         LOREM IPSUM\n         "),
-      _c("ViewTest"),
-    ],
-    1
-  )
+  return _c("div")
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -29069,7 +29049,7 @@ var staticRenderFns = [
               "row d-flex justify-content-lg-center align-items-center justify-content-sm-center p-2",
           },
           [
-            _c("div", { staticClass: "col-md-6 col-sm-12 text-center mt-3" }, [
+            _c("div", { staticClass: "col-md-6 col-sm-0 text-center mt-3" }, [
               _c("img", {
                 staticClass: "center-block mh-50 mw-50 h-50 w-50",
                 attrs: {
@@ -29083,82 +29063,87 @@ var staticRenderFns = [
               "div",
               { staticClass: "col-md-6 col-lg-6 col-xl-4 offset-xl-1 pt-3" },
               [
-                _c("form", { staticClass: "container" }, [
-                  _c("div", { staticClass: "text-center text-light" }, [
-                    _c(
-                      "h1",
-                      { staticClass: "fw-bold mb-0 me-3 fs-4 fs-sm-1" },
-                      [_vm._v("Conectar-se")]
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-outline mb-4" }, [
-                    _c("input", {
-                      staticClass: "form-control form-control-md",
-                      attrs: {
-                        type: "email",
-                        id: "form3Example3",
-                        placeholder: "CPF",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-label text-light pt-1",
-                        attrs: { for: "form3Example3" },
-                      },
-                      [_vm._v("Insira seu CPF")]
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-outline mb-3" }, [
-                    _c("input", {
-                      staticClass: "form-control form-control-md",
-                      attrs: {
-                        type: "password",
-                        id: "form3Example4",
-                        placeholder: "Insira sua senha",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-label text-light pt-1",
-                        attrs: { for: "form3Example4" },
-                      },
-                      [_vm._v("Senha")]
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "text-sm-center text-lg-start mt-4 pt-2 text-light",
-                    },
-                    [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "btn btn-primary botao btn-md",
-                          attrs: { type: "button" },
-                        },
-                        [_vm._v("Login")]
-                      ),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v("Não tem uma conta? "),
-                        _c(
-                          "a",
-                          { staticClass: "link-info", attrs: { href: "#!" } },
-                          [_vm._v("Registrar")]
-                        ),
+                _c(
+                  "form",
+                  {
+                    staticClass: "container",
+                    staticStyle: { "font-size": "0.5rem" },
+                  },
+                  [
+                    _c("div", { staticClass: "text-center text-white" }, [
+                      _c("h1", { staticClass: "fw-bold mb-0 me-3 fs-4 mb-3" }, [
+                        _vm._v("Conectar-se"),
                       ]),
-                    ]
-                  ),
-                ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-label-group mb-3" }, [
+                      _c("input", {
+                        staticClass: "form-control form-control-md",
+                        attrs: {
+                          type: "email",
+                          id: "form3Example3",
+                          placeholder: "CPF",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "label",
+                        {
+                          staticClass: "form-label text-light pt-1",
+                          attrs: { for: "form3Example3" },
+                        },
+                        [_vm._v("Insira seu CPF")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-label-group mb-3" }, [
+                      _c("input", {
+                        staticClass: "form-control form-control-md",
+                        attrs: {
+                          type: "password",
+                          id: "form3Example4",
+                          placeholder: "Insira sua senha",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "label",
+                        {
+                          staticClass: "form-label text-light pt-1",
+                          attrs: { for: "form3Example4" },
+                        },
+                        [_vm._v("Senha")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "text-center ts-sm-2 mt-4 pt-2 text-light text-center",
+                      },
+                      [
+                        _c(
+                          "button",
+                          {
+                            staticClass: "btn btn-primary botao btn-md",
+                            attrs: { type: "button" },
+                          },
+                          [_vm._v("Login")]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v("Não tem uma conta? "),
+                          _c(
+                            "a",
+                            { staticClass: "link-info", attrs: { href: "#!" } },
+                            [_vm._v("Registrar")]
+                          ),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
               ]
             ),
           ]

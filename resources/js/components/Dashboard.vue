@@ -1,9 +1,7 @@
 <template>
    
    <div>
-        <h1>Dashboard</h1>
-            LOREM IPSUM
-            <ViewTest></ViewTest>
+        
     </div>
 </template>
 <script>
