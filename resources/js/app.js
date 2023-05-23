@@ -20,8 +20,7 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('dashboard',require('./components/Dashboard.vue').default)
-Vue.component('ViewTest',require('./components/ViewTest.vue').default)
+Vue.component('Background',require('./components/Background.vue').default)
 Vue.component('Login',require('./components/Login.vue').default)
 
 

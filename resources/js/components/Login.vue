@@ -53,7 +53,7 @@
   </div>
   <div class="footer w-100 mh-100">
     <!-- Copyright -->
-   <img style="width: 100%;max-height: 100px; object-fit:cover;" src="./images/cores.webp" alt="rodapé">
+   <img style="width: 100%;height: 100%; object-fit:cover;" src="./images/cores.webp" alt="rodapé">
     <!-- Right -->
 </div>
    </section>

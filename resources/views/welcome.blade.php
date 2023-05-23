@@ -10,7 +10,7 @@
         
       
         <div id="app">
-           <Login></Login>
+            <login></login>
         </div>
         
 
@@ -21,12 +21,12 @@
            
         </script>
        <script>
-import Dashboard from '../js/components/Dashboard.vue';
+import Background from '../js/components/Background.vue';
 import Login from '../js/components/Login.vue';
 
  export default {
-    name: "Dashboard",
-    components: { Dashboard },
+    name: "Background",
+    components: { Background },
     name: "Login",
     components: { Login}
     
