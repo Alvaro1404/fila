@@ -11,6 +11,7 @@
       
         <div id="app">
             <login></login>
+            <rodape></rodape>
         </div>
         
 
@@ -23,12 +24,16 @@
        <script>
 import Background from '../js/components/Background.vue';
 import Login from '../js/components/Login.vue';
+import rodape from '../js/components/rodape.vue';
+
 
  export default {
     name: "Background",
     components: { Background },
     name: "Login",
-    components: { Login}
+    components: { Login},
+    name: "rodape",
+    components: { rodape}
     
 }
 

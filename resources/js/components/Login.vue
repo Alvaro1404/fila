@@ -5,7 +5,7 @@
     <div class="row d-flex justify-content-lg-center align-items-center justify-content-sm-center p-2">
       <div class="col-md-6 col-sm-0 text-center mt-3 ">
         
-        <img src="./images/celular1.webp" class="center-block mh-50 mw-50 h-50 w-50 " alt="Sample image">
+        <img src="./images/celular1.webp" class="center-block mh-50 mw-50 h-50 w-50 animated" alt="Sample image">
       </div>
       <div class="col-md-6 col-lg-6 col-xl-4 offset-xl-1 pt-3">
        
@@ -51,11 +51,7 @@
       </div>
     </div>
   </div>
-  <div class="footer w-100 mh-100">
-    <!-- Copyright -->
-   <img style="width: 100%;height: 100%; object-fit:cover;" src="./images/cores.webp" alt="rodapé">
-    <!-- Right -->
-</div>
+  
    </section>
 
  </template>
@@ -71,12 +67,12 @@
  
  <style scoped>
 
-section{
+/* section{
   background-image: url(./images/tela-de-fundo.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover
-}
+} */
 .botao{
   padding-left: 2.5rem; padding-right: 2.5rem; background-color: #3A9DD5; border: #eee;
 }
@@ -99,16 +95,5 @@ height: calc(100% - 73px);
 height: 50%;
 }
 }
-.footer {
-  /* position:static;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center; */
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;  
-}
+
 </style>

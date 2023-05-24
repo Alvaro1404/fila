@@ -22,6 +22,10 @@ window.Vue = require('vue').default;
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('Background',require('./components/Background.vue').default)
 Vue.component('Login',require('./components/Login.vue').default)
+Vue.component('rodape',require('./components/rodape.vue').default)
+Vue.component('home',require('./components/home.vue').default)
+
+
 
 
 /**
