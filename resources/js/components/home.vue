@@ -1,15 +1,19 @@
 <!-- Template -->
 <template>
    
-   <nav class="navbar navbar-inverse">
+   <nav class="navbar navbar-inverse ">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
+    <div class="navbar-header container">
+     <div class="row d-flex justify-content-lg-center align-items-center justify-content-sm-center p-2">
+      <div class="col-md-2 col-sm-0 text-center mt-3 ">
+      <a class="navbar-brand" href="#">
+        
+        
+        <img src="./images/logo.webp" class="center-block h-50 w-50 " alt="Sample image">
+     
+      </a>
+       </div>
+    </div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -18,9 +22,7 @@
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+    
     </div>
   </div>
 </nav>
