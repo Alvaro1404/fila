@@ -23,7 +23,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('Background',require('./components/Background.vue').default)
 Vue.component('Login',require('./components/Login.vue').default)
 Vue.component('rodape',require('./components/rodape.vue').default)
-Vue.component('home',require('./components/home.vue').default)
+Vue.component('navbar',require('./components/navbar.vue').default)
 
 
 

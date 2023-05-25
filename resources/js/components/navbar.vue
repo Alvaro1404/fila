@@ -1,18 +1,18 @@
 <!-- Template -->
 <template>
    
-   <nav class="navbar navbar-inverse ">
+   <nav class="navbar navbar-inverse container-fluid">
   <div class="container-fluid">
     <div class="navbar-header container">
-     <div class="row d-flex justify-content-lg-center align-items-center justify-content-sm-center p-2">
-      <div class="col-md-2 col-sm-0 text-center mt-3 ">
-      <a class="navbar-brand" href="#">
+     <!-- <div class="row d-flex justify-content-lg-center align-items-center justify-content-sm-center p-2"> -->
+      <div class="col-md-2 col-sm-0 text-center mt-3">
+      <a class="navbar text-center" href="#">
         
         
-        <img src="./images/logo.webp" class="center-block h-50 w-50 " alt="Sample image">
-     
+        <div> <p class=""><i data-feather="check-circle"></i> <br> Agenda Fácil</p></div>
+        <!-- <img src="./images/logo.webp" class="img-fluid col-lg-12 col-xs-0  hover-shadow" alt=""> -->
       </a>
-       </div>
+       <!-- </div> -->
     </div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -35,7 +35,7 @@
 <!-- script -->
 <script lang="ts">
 export default {
-      name: "home"
+      name: "navbar"
   }
 </script>
 
