@@ -24,6 +24,8 @@ Vue.component('Background',require('./components/Background.vue').default)
 Vue.component('Login',require('./components/Login.vue').default)
 Vue.component('rodape',require('./components/rodape.vue').default)
 Vue.component('navbar',require('./components/navbar.vue').default)
+Vue.component('carrossel',require('./components/carrossel.vue').default)
+Vue.component('marcacao',require('./components/marcacao.vue').default)
 
 
 

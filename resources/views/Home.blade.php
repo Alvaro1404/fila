@@ -13,6 +13,18 @@
 <body>
     <div id="app">
         <navbar></navbar>
+        <div class="container-fluid" style="margin: 0px; max-width:max-content">
+            <div class="row">
+            <div class="col-md-6"> 
+                <carrossel ></carrossel>
+            </div>
+
+            <div class="col-md-6"   >
+                <marcacao></marcacao>
+            </div>
+               
+           </div>
+        </div>
         <rodape></rodape>
     </div>
 
@@ -20,12 +32,20 @@
     <script>
 import Background from '../js/components/Background.vue';
 import navbar from '../js/components/navbar.vue';
+import carrossel from '../js/components/carrossel.vue';
+import marcacao from '../js/components/marcacao.vue';
+
+
 
  export default {
     name: "Background",
-    components: { Background },
+    components: { Background }
     name: "navbar",
     components: { navbar }
+    name: "carrossel",
+    components: { carrossel }
+    name: "marcacao",
+    components: { marcacao }
     
 }
     </script>

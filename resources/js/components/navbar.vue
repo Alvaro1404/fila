@@ -1,29 +1,33 @@
 <!-- Template -->
 <template>
    
-   <nav class="navbar navbar-inverse container-fluid">
-  <div class="container-fluid">
+   <nav class="navbar navbar-inverse container-fluid ">
+  <!-- <div class="container-fluid"> -->
     <div class="navbar-header container">
      <!-- <div class="row d-flex justify-content-lg-center align-items-center justify-content-sm-center p-2"> -->
       <div class="col-md-2 col-sm-0 text-center mt-3">
-      <a class="navbar text-center" href="#">
         
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
         
-        <div> <p class=""><i data-feather="check-circle"></i> <br> Agenda Fácil</p></div>
+        <div> <h4 class="AFlogo" href=""><i data-feather="check-circle"></i> <br> Agenda Fácil</h4></div>
         <!-- <img src="./images/logo.webp" class="img-fluid col-lg-12 col-xs-0  hover-shadow" alt=""> -->
-      </a>
+     
        <!-- </div> -->
     </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+    <div class="collapse navbar-collapse container pt-2" id="myNavbar">
+      <ul class="nav navbar-nav ">
+        <li><a style="padding-top: 20px;" href="">Home</a></li>
+        <li><a style="padding-top: 20px;" href="#">Marcações</a></li>
+        <li><a style="padding-top: 20px;" href="#">Perfil</a></li>
+        <li><a style="padding-top: 20px;" href="#">Suporte</a></li>
       </ul>
     
-    </div>
+    <!-- </div> -->
   </div>
 </nav>
 
@@ -42,6 +46,16 @@ export default {
 
 <!-- estilo -->
 <style>
+
+ .AFlogo {
+  font-size: 1.5rem;
+  color: white;
+ }
+ .AFlogo:hover {
+  color: gray;
+  cursor: pointer;  
+ }
+
  /* Remove the navbar's default margin-bottom and rounded borders */ 
  .navbar {
       margin-bottom: 0;
